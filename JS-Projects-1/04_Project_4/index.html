@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS- Projects-1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <button class="nav-btn"><a href="../index.html">Home</a></button>
+        <button class="nav-btn"><a href="https://github.com/Keshav1100" target="_blank">Github Profile</a></button>
+
+    </nav>
+
+    <div class="main-container">
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess a random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        <form class="user-input">
+            <label for="user-guess">Guess a number</label>
+            <input type="number" name="user-guess" id="user-guess">
+            <button type="submit">Submit Guess</button>
+        </form>
+        <p>
+            Previous guesses:
+            <span class="user-guess-list"></span>
+        </p>
+        <p>
+            Guesses remaining:
+            <span class="user-guess-count"></span>
+        </p>
+        <div class="guess-comment">
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS- Projects-1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <button class="nav-btn"><a href="../index.html">Home</a></button>
+        <button class="nav-btn"><a href="https://github.com/Keshav1100" target="_blank">Github Profile</a></button>
+
+    </nav>
+    <h1>BMI Calculator</h1>
+    <div class="container">
+        <form>
+
+            <div class="input-field">
+                <label for="height">Enter height in cm: </label>
+                <input type="number" name="height" id="height" required>
+            </div>
+            <div class="input-field">
+                <label for="weight">Enter weight in kg: </label>
+                <input type="number" name="weight" id="weight" required>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+    <div id="results"></div>
+    <h2>BMI Weight Guide</h2>
+    <p>Under Weight = Less than 18.6 </p>
+    <p>Normal Range = 18.6 and 24.9</p>
+    <p>Overweight = Greater than 24.9</p>
+</body>
+<script src="./script.js"></script>
+
+</html>
